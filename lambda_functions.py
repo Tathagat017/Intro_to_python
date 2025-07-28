@@ -78,6 +78,6 @@ mathsLib = MathLibrary()
 stringLib = StringLibrary()
 listLib = ListLibrary()
 
-print(mathsLib.get_function('add')(5, 3)) 
-print(stringLib.get_function('uppercase')("hello")) 
+print(mathsLib.get_function('add')(5, 3))
+print(stringLib.get_function('uppercase')("hello"))
 print(listLib.get_function('filter_even')([1, 2, 3, 4, 5, 6]))
